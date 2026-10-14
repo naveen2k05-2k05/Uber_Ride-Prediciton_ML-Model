@@ -1,30 +1,43 @@
-🚕 Uber Weekly Ride Prediction — ML + Flask Web App
+<div align="center">
 
-This project is a Machine Learning–powered web application that predicts the number of weekly Uber rides based on city-level socioeconomic inputs.
-It uses a trained regression model, a Flask backend, and a fully designed frontend UI using HTML/CSS.
+🚗 Uber Ride Prediction — ML Model
+Predict ride-related values using machine learning.
+<img src="https://img.shields.io/badge/Python-ML-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+<img src="https://img.shields.io/badge/Scikit--learn-Machine%20Learning-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-learn" />
+<img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
 
-📌 Features
+View Repository
+</div>
 
-🧠 Trained ML model (model.pkl)
+📌 Overview
+A machine learning project exploring Uber ride data and building a model to make predictions from the available dataset.
+✨ Highlights
+- 📊 Explore and analyze ride data
+- 🧹 Prepare data for machine learning
+- 🤖 Train and evaluate a prediction model
+- 📈 Visualize patterns and model results
+🛠️ Tech Stack
+Tool	Purpose
+Python	Model development
+Pandas & NumPy	Data processing
+Scikit-learn	Machine learning
+Matplotlib / Seaborn	Data visualization
+Jupyter Notebook	Experimentation
 
-🌐 Flask web application (app.py)
 
-📊 Dataset used for training (taxi.csv)
+🚀 Run Locally
+git clone https://github.com/naveen2k05-2k05/Uber_Ride-Prediciton_ML-Model.git
+cd Uber_Ride-Prediciton_ML-Model
+python -m venv .venv
+Activate the environment, then install dependencies:
+# Windows PowerShell
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+Open the notebook in Jupyter or VS Code and run the cells in order.
+🎯 Workflow
+Dataset → Data Cleaning → Exploratory Analysis → Feature Preparation → Model Training → Evaluation
+<div align="center">
 
-🔧 Poetry-based dependency management (pyproject.toml)
-
-🖥 Simple UI using HTML templates (index.html expected in templates folder)
-
-🛠 Tech Stack
-
-Python 3.12+
-
-Flask 3.1
-
-NumPy
-
-Pandas
-
-Scikit-Learn
-
-Poetry Package Manager
+Built with Python and Machine Learning 💻
+</div>
